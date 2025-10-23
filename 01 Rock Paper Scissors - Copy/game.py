@@ -1,7 +1,6 @@
 import random
 from typing import List
 
-
 class RockPaperScissors:
     """
     Main class for the game Rock, Paper, Scissors
@@ -14,11 +13,11 @@ class RockPaperScissors:
         
         :return: User's choice as a string
         """
-
-        
-
         user_choice: str = input("Enter your choice (rock/paper/scissors): ")
         if user_choice in self.choices:
             return user_choice
         else:
             print    
+
+
+
